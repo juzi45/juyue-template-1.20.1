@@ -6,12 +6,14 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
+import static name.juyue.juyue.Mod_id;
+
 public class juyue_items_registers {
 
 
-    public static final Item xuan = registerItem();
+    public static final Item xuan = RegisterItem(Mod_id, "xuan");
 
-    public static Item registerItem(String namespace, String id) {
+    public static Item RegisterItem(String namespace, String id) {
         return Registry.register(Registries.ITEM, new Identifier(namespace, id), new Item(new FabricItemSettings()));
     }
 
