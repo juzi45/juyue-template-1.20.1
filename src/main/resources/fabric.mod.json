@@ -16,13 +16,13 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "name.juyue.juyue"
+      "name.juyue.JuYue"
     ],
     "clinet": [
-      "name.juyue.juyueClient"
+      "name.juyue.JuYueClient"
     ],
     "fabric-datagen": [
-      "name.juyue.juyueDataGenerator"
+      "name.juyue.JuYueDataGenerator"
     ]
   },
   "mixins": [
