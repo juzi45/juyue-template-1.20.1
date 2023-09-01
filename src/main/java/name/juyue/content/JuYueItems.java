@@ -9,8 +9,10 @@ import net.minecraft.util.Identifier;
 
 
 public class JuYueItems {
-	public static final Item XUAN = RegisterItem(JuYue.MOD_ID, "xuan");
-	public static final Item JINGSHI = RegisterItem(JuYue.MOD_ID, "baboljinsi");
+	public static final String Item="item"; String Tool="tools";
+
+	public static final Item XUAN = RegisterItem(Item, "xuan");
+	public static final Item JINGSHI = RegisterItem(Item, "baboljinsi");
 	public static Item RegisterItem(String namespace, String id) {
 		return Registry.register(Registries.ITEM, new Identifier(namespace, id), new Item(new FabricItemSettings()));
 	}
