@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "JuYue:item/baboljinsi"
+    "layer0": "juyue:item/babol_crystal"
   }
 }
