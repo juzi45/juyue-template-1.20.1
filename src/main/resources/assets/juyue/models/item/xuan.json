@@ -1,6 +1,6 @@
 {
-  "parent": "item/generated",
+  "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "JuYue:item/xuan"
+    "layer0": "juyue:item/xuan"
   }
 }
