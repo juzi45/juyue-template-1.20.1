@@ -1,6 +1,6 @@
 package name.juyue;
 
-import name.juyue.content.JuYueItems;
+import name.juyue.content.Register.JuYueItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

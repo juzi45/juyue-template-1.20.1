@@ -1,4 +1,4 @@
-package name.juyue.content;
+package name.juyue.content.Item;
 
 public class Fuels {/*
     public static Fuels RegisterFuels(String id,fueltime){

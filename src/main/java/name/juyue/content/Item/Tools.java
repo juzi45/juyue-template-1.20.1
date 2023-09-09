@@ -1,7 +1,7 @@
-package name.juyue.content;
+package name.juyue.content.Item;
 
 
-import name.juyue.content.JuYueItems;
+import name.juyue.content.Register.JuYueItems;
 import name.juyue.JuYue;
 public class Tools {
     /*
