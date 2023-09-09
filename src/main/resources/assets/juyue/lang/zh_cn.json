@@ -1,3 +1,8 @@
 {
+  "itemGroup.juyue.general": "Ju Yue",
 
+  "block.juyue.template_block": "示例方块",
+
+  "item.juyue.xuan": "一个id为“xuan”的神奇物品",
+  "item.juyue.babol_crystal": "巴博尔水晶"
 }

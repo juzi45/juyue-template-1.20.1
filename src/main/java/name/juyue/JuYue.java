@@ -1,5 +1,7 @@
 package name.juyue;
 
+import name.juyue.content.register.JuYueBlocks;
+import name.juyue.content.register.JuYueItemGroups;
 import name.juyue.content.register.JuYueItems;
 import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
@@ -11,7 +13,9 @@ public class JuYue implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        JuYueItems.registerItems();
+        JuYueBlocks.register();
+        JuYueItems.register();
+        JuYueItemGroups.register();
     }
 
     /*
@@ -19,9 +23,9 @@ public class JuYue implements ModInitializer {
     1.  请遵守 Java 的基础命名规范，包括但不限于：
         1.1.  方法和变量使用 camelCase 命名，正确的有 myMethod、aMethodWithMultipleWords 等，错误的有 MyMethod、ihaveamethod、IDONTknowwhatIMDoing 等；
         1.2.  软件包使用 snake_case 命名，正确的有 item、my_package、i_have_a_package 等，错误的有 Item、MYPACKAGE、thisIsAPackage 等；
-        1.3.  常量使用 UPPER_CAMEL_CASE 命名，正确的有 MY_CONSTANT、A_CONSTANT_WIDH_MULTIPLE_WORDS 等，错误的有 MYCONSTANT、myConstant、my_constant 等。
+        1.3.  常量使用 UPPER_CAMEL_CASE 命名，正确的有 MY_CONSTANT、A_CONSTANT_WITH_MULTIPLE_WORDS 等，错误的有 MYCONSTANT、myConstant、my_constant 等。
 
-    2.  请及时使用 Intellij IDEA 软件的格式化功能来规范代码风格：
+    2.  请及时使用 IntelliJ IDEA 软件的格式化功能来规范代码风格：
         2.1.  格式化选中区域：代码>重新格式化代码，默认快捷键为 Alt+Ctrl+L；
         2.2.  格式化当前文件：代码>重新格式化文件，默认快捷键为 Alt+Shift+Ctrl+L。
 
